@@ -1,0 +1,123 @@
+
+
+/**Bouton-validation**/
+
+button{
+    transform: scale(1);
+    transition: transform 1s;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+/**Accueil : Card**/
+
+.restaurant-content{
+    transform: scale(1);
+    transition: transform .4s .5s;
+    &:hover{
+     transform:scale(1.07)
+    }
+ }
+
+/** Heart**/
+
+.fa-heart {
+    position: relative;
+}
+.fa-heart:hover {
+    transition: opacity 200ms ease-in-out;
+}
+
+.fa-heart:hover::after {
+    opacity: 0;
+}
+.fa-heart:hover::before {
+    opacity: 1;
+}
+.fa-heart::after {
+    opacity: 1;
+    font-weight: 100;
+    align-self: center;
+    transition: opacity 400ms ease-in;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ""
+}
+.fa-heart::before {
+    opacity: 0;
+    background: linear-gradient(#9356DC, #FF79DA);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: opacity 400ms ease-out;
+    font-weight: 600;
+}
+
+/**Menu Animation**/
+
+.MenuContent{
+    z-index: 1;    
+    transition: all 0.5s ease;
+
+}
+
+.fa-check-circle{
+    transform: translate(30px, 0) rotate(0) ;    
+    opacity: 0;
+    transition: all 2s ease;    
+} 
+
+.MenuBox{
+    cursor: pointer;
+    &:hover{
+        .MenuContent{
+            width: 80%;
+            background-color: #f5edff;          
+            border-radius: 20px 0 0 20px; 
+        }
+        .MenuCheck .fa-check-circle{
+            transform: translate(0, 0) rotate(-720deg);
+            opacity: 1; 
+        }   
+    }
+}
+
+
+/**Menu apparition**/
+
+.MenuBox{
+    animation: slide 2.5s linear 0.7s;
+}
+
+@keyframes slide{
+
+0%{
+    opacity: 0;
+    transform: translateY(20px);  
+    }
+
+25%{
+    opacity: 0.25;
+    }
+
+50%{
+    opacity: 0.5;
+    
+    }
+
+75%{
+    opacity: 0.75;
+        
+    }
+
+100%{
+    opacity: 1;
+    transform: translateY(0);
+    }
+
+}

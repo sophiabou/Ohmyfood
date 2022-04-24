@@ -1,0 +1,17 @@
+.btn-explore {
+    border: none;
+    background-color: $colour-primary;
+    border-radius: 5%;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, $colour-primary, $colour-secondary);
+    font-family: $roboto 400px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(219,219,219,255);
+}
+
+.btnCommande {
+    align-items: center;
+    width: 30%;
+}

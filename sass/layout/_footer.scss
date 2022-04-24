@@ -1,0 +1,25 @@
+.blockFooter {
+    width: 100%;
+    height: 100%;
+    background-color: #353535;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    color: $white;
+    gap: 8px;
+}
+
+a {
+    color: $white;
+}
+
+.logoFont{
+    font-family : $shrikhand;
+    font-size: 25px;
+    padding-bottom: 25px;
+}

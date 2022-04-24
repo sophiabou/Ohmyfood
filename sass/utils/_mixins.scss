@@ -1,0 +1,22 @@
+$breakpoints: (mobile: 764px);
+
+#container {
+    @media screen and(max-width: map-get($breakpoints, mobile)) {}
+}
+
+@mixin flexmid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexstart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@mixin flexaround {
+    display: flex;
+    justify-content: space-around;
+}
+

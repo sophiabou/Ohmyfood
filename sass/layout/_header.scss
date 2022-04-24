@@ -1,0 +1,45 @@
+.logo {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+header {
+    text-align: center;}
+
+.blocHeader {
+    background-color: rgba(246,246,246,255);
+    padding: 40px;
+    text-align: center;
+    gap: 5px;
+    height: 350px;
+}
+
+form {
+    border-top: 3px solid rgba(221,221,221,255);
+    background-color: $form;
+    height: 60px;
+    gap: 15px;
+    @include flexmid
+}
+
+nav > form > .map {
+    margin-left:30px;
+    width: 25px;
+    color: #353535;
+}
+
+input {
+    border-style: none;
+    background-color: $form;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+.pHeader {
+    font-size: 22px;
+}

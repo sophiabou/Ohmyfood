@@ -1,0 +1,84 @@
+.HeadbandWrapper{    
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    position:relative;
+    z-index: 0;
+    img{
+        width: 100%;
+    }   
+}
+.NavMenu{
+    // @include flex-center;
+    justify-content: space-around;
+    height: 70px;
+    font-size: 30px;
+    .fa-arrow-left{
+        text-align: left;
+        color: black;
+        
+    }
+}
+
+.Menu{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    background-color: $grey-light;
+    margin-top: -1rem;    
+    position: relative;
+    z-index: 1;
+}
+
+.RestaurantName{
+    width: 100%;
+    font-family: Shrikhand;
+    font-size: 18px;
+    display: inline-flex;
+    justify-content: space-between; 
+    align-items: center;
+    h1{
+        padding-left: 1rem;
+    }     
+    .fa-heart{
+        cursor: pointer;
+        font-size: 20px;
+        padding-right: 1rem;                       
+    }
+}
+
+.MenuBlock{
+    width: 100%;
+    #MenuStarter{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #MenuDish{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #MenuDessert{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+.MenuTitle{
+    width: 40%;
+    h2{
+        padding-left: 0.5rem;
+        margin-bottom: 0;
+     }
+    .MenuTitle-underline{
+        width: 30%;
+        border-top: 5px solid $green-light;
+        margin-left: 0.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.MenuOrder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

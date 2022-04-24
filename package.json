@@ -1,0 +1,20 @@
+{
+  "name": "projet-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./sass/main.scss:public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophiabou/Ohmyfood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sophiabou/Ohmyfood/issues"
+  },
+  "homepage": "https://github.com/sophiabou/Ohmyfood#readme"
+}

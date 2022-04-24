@@ -1,0 +1,255 @@
+h2 { 
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 3px;
+}
+
+.number {
+    border: none;
+    background-color: $colour-primary;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: -11px;
+    margin-bottom: 0;
+    width: 15px;
+    z-index: 999;
+    padding: 0.5rem;
+}
+
+.backg {
+    border: none;
+    background-color: rgba(246,246,246,255);
+    border-radius: 1rem;
+    padding: 5px;
+    align-items: center;
+    gap: 25px;
+    display: flex;
+    width: 90%;
+    margin-bottom: 14px;
+    box-shadow: 5px 5px 5px #ebebeb;
+}
+
+.backg:hover {
+    background-color: rgba(245,237,255,255);
+}
+
+.backg > .fonction {
+    margin-left:1.5rem;
+    color: #7e7e7e;
+}
+
+.fonction:hover {
+    color: $colour-primary;
+}
+
+.globalFonction {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fonctionnement {
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+a { 
+   text-decoration: none;
+}
+
+body > main > footer > div > ul > li > a > i{
+   padding-right: 1rem;
+}
+.restaurants {
+   background-color: $grey-light;
+   padding: 40px;
+}
+.card {
+    background-color: $white;
+    width: 100%;
+    border-radius: 28px 28px 28px 28px;
+    position: relative; 
+    margin-bottom: 5rem;
+    height: 400px;
+    box-shadow: 5px 5px 5px #ebebeb;
+}
+
+.espace {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    margin-bottom: 1rem;
+}
+
+.fa-heart {
+    position: relative;
+    padding-right: 1rem;
+    padding-bottom: 4rem;
+    float: right;
+    font-size: 30px;        
+    cursor: pointer;   
+}
+
+.fa-heart:hover {
+    transition: opacity 200ms ease-in-out;
+}
+
+.fa-heart:hover::after {
+    opacity: 0;
+}
+
+.fa-heart:hover::before {
+    opacity: 1;
+}
+
+.fa-heart::after {
+    opacity: 1;
+    font-weight: 100;
+    align-self: center;
+    transition: opacity 400ms ease-in;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ""
+}
+
+.fa-heart::before {
+    opacity: 0;
+    background: linear-gradient(#9356DC, #FF79DA);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: opacity 400ms ease-out;
+    font-weight: 600;
+}
+.city {
+    width: 80%;
+    padding: 0rem;
+    margin-bottom: -3rem;
+    margin-right: 0; 
+    line-height: 1px;
+}
+
+.nv {
+    background-color: #99e2d0;
+    border-radius: 2px;
+    width: 5rem;
+    padding: 7px;
+    color: #008766;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    right: 20px;
+}
+
+.imgRestaurants {
+    width: 100%;
+    border-radius: 8% 8% 0 0;
+    object-fit: cover;
+    height: 276px;
+}    
+
+.legendeImg {
+   font-size: 20px;
+   color: black;
+   flex-direction: column;
+   margin-left: 20px;
+   gap: -3%;
+}
+
+@media screen and  (min-width : 767px) and (max-width: 1024px) {
+
+// version tablette //
+
+.logo {
+    width: 300px;
+}
+form {
+    height: 70px;
+}
+input {
+    font-size: 25px;
+}
+.blocHeader {
+    padding: 5%;
+}
+h1 {
+    font-size: 45px;
+}
+.pHeader {
+    font-size: 20px;
+}
+.btn-explore {
+    width: 70%;
+}
+.backg {
+    padding: 3px;
+}
+
+.restaurants {
+    padding: 80px;
+}
+.card {
+    padding-bottom: 2rem;
+}
+.imgRestaurants {
+   height: 250px;
+}
+
+h2 {
+    font-size: 30px;
+}
+.nv {
+    padding: 5px;
+    right: 15px;
+}
+.blockFooter {
+    width: auto;
+}
+}
+
+@media screen and  (min-width : 1024px) and (max-width: 1326px) {
+
+// version dekstop //
+
+.blocHeader{
+    padding: 30px;
+    line-height: 60px;
+}
+.btn-explore{
+    width: 40%;
+    font-size: 20px;
+}
+.backg {
+    width: 50rem;
+    gap: 40px;
+    font-size: 20px;
+}
+.backg > .fonction {
+    margin-left: 50px;
+}
+.number {
+    width: 20px;
+    height: 20px;
+}
+h2 {
+    font-size: 30px;
+}
+.restaurants{
+  padding: 30px;
+}
+.card {
+   width: 55%;
+}
+.espace{
+    align-items: center;
+}
+}
