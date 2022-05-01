@@ -880,7 +880,7 @@ body > main > footer > div > ul > li > a > i {
   }
 
   .btnMenu {
-    padding: 8%;
+    padding: 5%;
     text-align: center;
   }
 
@@ -890,26 +890,24 @@ body > main > footer > div > ul > li > a > i {
   .MenuBlock .MenuStarter {
     padding-left: 2rem;
     padding-right: 2rem;
-    width: 40%;
+    width: 30%;
+    border: 0;
   }
   .MenuBlock .MenuDish {
     padding-left: 2rem;
     padding-right: 2rem;
-    width: 40%;
+    width: 30%;
+    border: 0;
   }
   .MenuBlock .MenuDessert {
     padding-left: 2rem;
     padding-right: 2rem;
-    width: 40%;
+    width: 30%;
+    border: 0;
   }
-
-  .dekstop {
+  .MenuBlock .dekstopMenu {
     display: flex;
     flex-direction: row;
-  }
-
-  .Menu {
-    width: 100%;
   }
 }
 .btn-explore {

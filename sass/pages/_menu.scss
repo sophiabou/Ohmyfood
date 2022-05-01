@@ -254,32 +254,32 @@ h1 {
     }     
 }
 .btnMenu {
-    padding: 8%;
+    padding: 5%;
     text-align: center;
 }
 .MenuBlock{
     width: 100%;
     .MenuStarter {
-        padding-left: 2rem;
+       padding-left: 2rem;
        padding-right: 2rem;
-       width: 40%;
+       width: 30%;
+       border: 0;
     }
     .MenuDish {
        padding-left: 2rem;
        padding-right: 2rem;
-       width: 40%;
+       width: 30%;
+       border: 0;
     }
     .MenuDessert {
        padding-left: 2rem;
        padding-right: 2rem;
-       width: 40%;
+       width: 30%;
+       border: 0;
     }
-}
-.dekstop {
+    .dekstopMenu {
     display: flex;
     flex-direction: row;
 }
-.Menu {
-    width: 100%;
 }
 }
