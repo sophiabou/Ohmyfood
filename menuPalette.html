@@ -1,101 +1,160 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="utf8"/>
+    <meta charset="utf8">
     <meta name="viewport" content="width=device=width, initial-scale= 1.0, user-scalable=no">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Shrikhand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="sass/main.css">
-    <title>oh my food</title>
+    <link rel="stylesheet" href="public/css/prefixed/style.css">
+    <title>la palette du goût</title>
 </head>
 <body>   
- <header>
-     <img class="logo" src="./images/logo/ohmyfood.png" >
-    <img class="imgFr" src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"> 
- </header>
- <section>
-    <div>
-        <h1>La palette du goût</h1>
-         <label class="heart"><i class="far fa-heart"></i></label>
-    </div>
-    <h2>ENTREES</h2>
-        <div>
-          <div class="backg">
-            <h2>Fricassée d'escargot</h2>
-            <p>Au piment d'espelette</p>
-          <div>25e</div>
+   <header>
+        <nav class="NavMenu">
+            <div class="NavMenu-return">
+                <a href="index.html"><i class="fas fa-arrow-left"></i></a>
+            </div>
+            <div class="NavMenu-logo">
+                <img src="./images/logo/ohmyfood@2x.svg" alt="logo du site ohmyfood">
+            </div>
+        </nav>
+   </header>
+        <div class="HeadbandWrapper">
+            <img src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
         </div>
-        <div>
-          <div class="backg">
-            <h2>Foie gras de canard mi-cuit</h2>
-            <p>Et ses coupeau de truffes noire</p>
-          <div>35e</div>
+  <main class="Menu">
+        <div class="RestaurantName">
+              <h1>La palette du goût</h1>
+              <i class="far fa-heart"></i>
         </div>
-        <div>
-          <div class="backg">
-            <h2>Oeuf au plat</h2>
-            <p>Assaisonné à la truffe sur lit...<p>
-          <div>20e</div>
-        </div>
-    <h2>PLATS</h2>
-          <div>
-        <div>
-          <div class="backg">
-            <h2>Filet de boeuf aux herbes</h2>
-            <p>Accompagnée de sa ribambelle de légumes</p>
-          <div>40e</div>
-        </div>
-        <div>
-          <div class="backg">
-            <h2>Parmentier de queue de boeuf</h2>
-            <p>A la truffe noire sur sa purée de panais</p>
-          <div>35e</div>
-        </div>
-        <div>
-          <div class="backg">
-            <h2>Filet de Turbot</h2>
-            <p>Aux agrumes</p>
-          <div>44e</div>
-        </div>
-        <h2>DESSERTS</h2>
-          <div>
-          <div class="backg">
-            <h2>Paris-Brest</h2>
-            <p>Revisité</p>
-          <div>18e</div>
-        </div>
-        <div>
-          <div class="backg">
-            <h2>Macaron au chocolat d'exception</h2>
-            <p>Et glace à la vanille de madagascar</p>
-          <div>22e</div>
-        </div>
-        <div>
-          <div class="backg">
-            <h2>Mousse au chocolat</h2>
-            <p>Au piment d'espelette et à la truffe noire</p>
-          <div>23e</div>
-        </div>
-        <div>
-          <button class="btn-explore">Commander</button>
-        </div>
- </section>
+   <section class="MenuBlock">
+             <div class="dekstop">
+      <div class="MenuStarter"> 
+               <div class="MenuTitle">
+                   <h2>ENTRÉES</h2>
+                   <div class="MenuTitle-underline"></div>
+              </div>
+            <div class="MenuBox MenuChild1">
+              <div class="MenuContent">                            
+                   <h3 class="MenuContentTitle">Fricassée d'escargot</h3>
+                   <p class="MenuContentDesc">Au piment d'espelette</p>
+                   <p class="MenuContentPrice">25€</p>
+              </div>  
+              <div class="MenuCheck">
+                   <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
+              </div>                            
+            </div>
+            <div class="MenuBox MenuChild2">
+                <div class="MenuContent">                            
+                     <h3 class="MenuContentTitle">Foie gras de canard mi-cuit</h3>
+                     <p class="MenuContentDesc">Et ses coupeau de truffes noire</p>
+                     <p class="MenuContentPrice">35€</p>
+                </div>       
+                <div class="MenuCheck">
+                      <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
+                </div>                          
+              </div>
+            <div class="MenuBox MenuChild3">
+                <div class="MenuContent">                            
+                     <h3 class="MenuContentTitle">Oeuf au plat</h3>
+                      <p class="MenuContentDesc">Assaisonné à la truffe sur lit..</p>
+                      <p class="MenuContentPrice">20€</p>
+                </div>
+            <div class="MenuCheck">
+                <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
+            </div>                    
+            </div> 
+            </div>                     
+      <div class="MenuDish">
+            <div class="MenuTitle">
+                  <h2>PLATS</h2>
+                  <div class="MenuTitle-underline"></div>
+            </div>
+            <div class="MenuBox MenuChild1">
+            <div class="MenuContent">                            
+                  <h3 class="MenuContentTitle">Filet de boeuf aux herbes</h3>
+                  <p class="MenuContentDesc">Accompagnée de sa ribambelle de légumes</p>
+                  <p class="MenuContentPrice">40€</p>
+            </div>
+            <div class="MenuCheck">
+                  <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
+            </div>
+            </div>      
+            <div class="MenuBox MenuChild2">
+            <div class="MenuContent">                            
+                  <h3 class="MenuContentTitle">Parmentier de queue de boeuf</h3>
+                  <p class="MenuContentDesc">A la truffe noire sur sa purée de panais</p>
+                  <p class="MenuContentPrice">35€</p>
+            </div>
+            <div class="MenuCheck">
+                  <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
+            </div>
+            </div>      
+            <div class="MenuBox MenuChild">
+              <div class="MenuContent">                            
+                  <h3 class="MenuContentTitle">Filet de Turbot</h3>
+                  <p class="MenuContentDesc">Aux agrumes</p>
+                  <p class="MenuContentPrice">44€</p>
+              </div>
+              <div class="MenuCheck">
+                  <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
+              </div>
+              </div>
+      </div>
+      <div class="MenuDessert">
+              <div class="MenuTitle">
+                  <h2>DESSERTS</h2>
+                  <div class="MenuTitle-underline"></div>
+              </div>
+              <div class="MenuBox MenuChild1">
+              <div class="MenuContent">                            
+                  <h3 class="MenuContentTitle">Paris-Brest</h3>
+                  <p class="MenuContentDesc">Revisité</p>
+                  <p class="MenuContentPrice">18€</p>
+              </div>
+              <div class="MenuCheck">
+                  <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
+              </div>
+              </div>
+              <div class="MenuBox MenuChild2">
+              <div class="MenuContent">                            
+                  <h3 class="MenuContentTitle">Macaron au chocolat d'exception</h3>
+                  <p class="MenuContentDesc">Et glace à la vanille de madagascar</p>
+                  <p class="MenuContentPrice">22€</p>
+              </div>
+              <div class="MenuCheck">
+                  <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
+              </div>
+              </div>
+              <div class="MenuBox MenuChild3">
+              <div class="MenuContent">                            
+                  <h3 class="MenuContentTitle">Mousse au chocolat</h3>
+                  <p class="MenuContentDesc">Au piment d'espelette et à la truffe noire</p>
+                  <p class="MenuContentPrice">23€</p>
+              </div>
+              <div class="MenuCheck">
+                  <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
+                  </div>
+              </div>
+        </div>     
+      </div>         
+       <div class="btnMenu">
+         <button class="btn-explore">Commander</button>
+       </div>
+    </section> 
+  </main>
 <footer>
-    <div class="blockFooter">
-    <img class="logoFooter" src="../images/logo/ohmyfood.png">
-         <ul>
-           <li><i class="fas fa-utensils"></i>Proposer une restaurant</li>
-         </ul>
-         <ul>
-           <li><i class="fas fa-hands-helping"iFooter></i>Devenir partenaire</li>
-         </ul>
-         <ul>
-           <li>Mentions légale</li>
-           <li>Contact</li>
-          <a href="mailto:san@antonio.net"></a>
-  </div>
+     <div class="blockFooter">
+      <ul class="footer-link">
+        <li class="footer-link logoFont"> ohmyfood </li>
+        <li class="footer-link"> <a href="#"><i class="fas fa-utensils"></i>Proposez un restaurant</a></li>
+        <li class="footer-link"> <a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a></li>
+        <li class="footer-link"> <a href="#">Mentions légales</a></li>
+        <li class="footer-link"> <a href="mailto:p.ohmyfood@example.com"> Contact</a></li>
+      </ul>
+    </div>
 </footer>
 </body>
 </html>

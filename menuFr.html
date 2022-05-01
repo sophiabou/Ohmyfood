@@ -8,14 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Shrikhand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./sass/main.css">
+    <link rel="stylesheet" href="public/css/prefixed/style.css">
     <title>A la française</title>
 </head>
-<body>
-    <div class="loader">
-        <div class="LoaderSpinner"></div>
-    </div>      
-    <header>
+<body>   
+   <header>
         <nav class="NavMenu">
             <div class="NavMenu-return">
                 <a href="index.html"><i class="fas fa-arrow-left"></i></a>
@@ -24,214 +21,141 @@
                 <img src="./images/logo/ohmyfood@2x.svg" alt="logo du site ohmyfood">
             </div>
         </nav>
-    </header>
-
-    <main>
+   </header>
         <div class="HeadbandWrapper">
-            <img src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="plat cuisiné à la française">
+            <img src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="">
         </div>
-
-        <section class="Menu">
-
-            <div class="RestaurantName">
-                <h1>A la française</h1>
-                <i class="far fa-heart"></i>
+  <main class="Menu">
+        <div class="RestaurantName">
+              <h1>À  la française</h1>
+              <i class="far fa-heart"></i>
+        </div>  
+   <section class="MenuBlock">  
+     <div class="dekstop">
+      <div class="MenuStarter">   
+             <div class="MenuTitle">
+                   <h2>ENTRÉES</h2>
+                   <div class="MenuTitle-underline"></div>
+              </div>
+            <div class="MenuBox MenuChild1">
+              <div class="MenuContent">                            
+                   <h3 class="MenuContentTitle">Tartare de poulpe acidulé</h3>
+                   <p class="MenuContentDesc">Aux zestes d'orange</p>
+                   <p class="MenuContentPrice">25€</p>
+              </div>  
+              <div class="MenuCheck">
+                   <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
+              </div>                            
             </div>
-
-            <div class="MenuBlock">
-
-<!---MenuStarter--> 
-            <section id="MenuStarter">
-
-                <div class="MenuTitle">
-                        <h2>ENTRÉES</h2>
-                        <div class="MenuTitle-underline"></div>
-                    </div>
-
-                    <div class="MenuBox MenuChild1">
-
-                        <div class="MenuContent">                            
-                            <h3 class="MenuContentTitle">Tartare de poulpe acidulé</h3>
-                            <p class="MenuContentDesc">Aux zestes d'orange</p>
-                            <p class="MenuContentPrice">25€</p>
-                        </div>
-                         
-                                                 
-                        <div class="MenuCheck">
-                             <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
-                        </div>
-                                            
-                    </div>
-
-                    <div class="MenuBox MenuChild2">
-
-                        <div class="MenuContent">                            
-                            <h3 class="MenuContentTitle">Velouté de légumes d'antan</h3>
-                            <p class="MenuContentDesc">Carotte, panais, topinambour</p>
-                            <p class="MenuContentPrice">35€</p>
-                        </div>
-                         
-                                                 
-                        <div class="MenuCheck">
-                             <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
-                        </div>
-                                            
-                    </div>
-
-                    <div class="MenuBox MenuChild3">
-
-                        <div class="MenuContent">                            
-                            <h3 class="MenuContentTitle">Soupe à l'oignon</h3>
-                            <p class="MenuContentDesc">Revisitée</p>
-                            <p class="MenuContentPrice">20€</p>
-                        </div>
-                         
-                                                 
-                        <div class="MenuCheck">
-                             <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
-                        </div>
-                                            
-                    </div>             
-                                                  
-                </section>
-             
- <!---MenuDish-->
-
-            <section id="MenuDish">
-
-                <div class="MenuTitle">
-                    <h2>PLATS</h2>
-                    <div class="MenuTitle-underline"></div>
+            <div class="MenuBox MenuChild2">
+                <div class="MenuContent">                            
+                     <h3 class="MenuContentTitle">Velouté de légumes d'antan</h3>
+                     <p class="MenuContentDesc">Carotte, panais, topinambour</p>
+                     <p class="MenuContentPrice">35€</p>
+                </div>                       
+                <div class="MenuCheck">
+                      <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
+                </div>                          
+              </div>
+            <div class="MenuBox MenuChild3">
+                <div class="MenuContent">                            
+                     <h3 class="MenuContentTitle">Soupe à l'oignon</h3>
+                      <p class="MenuContentDesc">Revisitée</p>
+                      <p class="MenuContentPrice">20€</p>
                 </div>
-
-
-                <div class="MenuBox MenuChild1">
-
-                    <div class="MenuContent">                            
-                        <h3 class="MenuContentTitle">Coquilles Saint-Jacques</h3>
-                        <p class="MenuContentDesc">Accompagnées d'une purée de panais</p>
-                        <p class="MenuContentPrice">40€</p>
-                    </div>
-                     
-                                             
-                    <div class="MenuCheck">
-                         <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
-                    </div>
-                                        
-                </div>      
-
-                <div class="MenuBox MenuChild2">
-
-                    <div class="MenuContent">                            
-                        <h3 class="MenuContentTitle">Magret de canard</h3>
-                        <p class="MenuContentDesc">Et parmentier de pommes de terre</p>
-                        <p class="MenuContentPrice">35€</p>
-                    </div>
-                     
-                                             
-                    <div class="MenuCheck">
-                         <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
-                    </div>
-                                        
-                </div>      
-
-                <div class="MenuBox MenuChild3">
-
-                    <div class="MenuContent">                            
-                        <h3 class="MenuContentTitle">Pigeonneau d’Ille-et-Vilaine</h3>
-                        <p class="MenuContentDesc">Sur son lit de gnocchis aux légumes</p>
-                        <p class="MenuContentPrice">44€</p>
-                    </div>
-                     
-                                             
-                    <div class="MenuCheck">
-                         <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
-                    </div>
-                                        
-                </div>
-
-                  </section> <!---Fin id="MenuDish--> 
-          
-
-<!---MenuDessert-->
-            <section id="MenuDessert">
-
-                <div class="MenuTitle">
-                    <h2>DESSERTS</h2>
-                    <div class="MenuTitle-underline"></div>
-                </div>
-
-
-                <div class="MenuBox MenuChild1">
-
-                    <div class="MenuContent">                            
-                        <h3 class="MenuContentTitle">Pétales de violettes glacés</h3>
-                        <p class="MenuContentDesc">Et purée de noisettes</p>
-                        <p class="MenuContentPrice">18€</p>
-                    </div>
-                     
-                                             
-                    <div class="MenuCheck">
-                         <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
-                    </div>
-                                        
-                </div>
-
-
-                <div class="MenuBox MenuChild2">
-
-                    <div class="MenuContent">                            
-                        <h3 class="MenuContentTitle">Fondant au chocolat</h3>
-                        <p class="MenuContentDesc">Revisité</p>
-                        <p class="MenuContentPrice">18€</p>
-                    </div>
-                     
-                                             
-                    <div class="MenuCheck">
-                         <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
-                    </div>
-                                        
-                </div>
-
-                <div class="MenuBox MenuChild3">
-
-                    <div class="MenuContent">                            
-                        <h3 class="MenuContentTitle">Millefeuille croustillant</h3>
-                        <p class="MenuContentDesc">Myrtilles et pâte d’amande</p>
-                        <p class="MenuContentPrice">23€</p>
-                    </div>
-                     
-                                             
-                    <div class="MenuCheck">
-                         <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
-                    </div>
-                                        
-                </div>
-            </section> <!---id="MenuDessert--> 
-            
- <!---id="MenuOrder-->               
-
-                 <div class="MenuOrder">
-                    <button type="btn-explore">Commander</button>
-                </div>
-      
-
-            </div> <!--Fin MenuBlock-->
-
-        </section> <!---="Fin section : Menu -->
-  
-
-   <footer> 
-  <div class="blockFooter">
-    <ul class="footer-link">
-       <li class="footer-link logoFont"> ohmyfood </li>
-        <li class="footer-link"> <a href="#"><i class="fas fa-utensils"></i>Proposez un restaurant</a></li>
-        <li class="footer-link"> <a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a></li>
-        <li class="footer-link"> <a href="#">Mentions légales</a></li>
+            <div class="MenuCheck">
+                <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
+            </div>                    
+            </div>  
+      </div>                    
+      <div class="MenuDish">
+            <div class="MenuTitle">
+                  <h2>PLATS</h2>
+                  <div class="MenuTitle-underline"></div>
+            </div>
+            <div class="MenuBox MenuChild1">
+            <div class="MenuContent">                            
+                  <h3 class="MenuContentTitle">Coquilles Saint-Jacques</h3>
+                  <p class="MenuContentDesc">Accompagnées d'une purée de panais</p>
+                  <p class="MenuContentPrice">40€</p>
+            </div>
+            <div class="MenuCheck">
+                  <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
+            </div>
+            </div>      
+            <div class="MenuBox MenuChild2">
+            <div class="MenuContent">                            
+                  <h3 class="MenuContentTitle">Magret de canard</h3>
+                  <p class="MenuContentDesc">Et parmentier de pommes de terre</p>
+                  <p class="MenuContentPrice">35€</p>
+            </div>
+            <div class="MenuCheck">
+                  <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
+            </div>
+            </div>      
+            <div class="MenuBox MenuChild">
+              <div class="MenuContent">                            
+                  <h3 class="MenuContentTitle">Pigeonneau d’Ille-et-Vilaine</h3>
+                  <p class="MenuContentDesc">Sur son lit de gnocchis aux légumes</p>
+                  <p class="MenuContentPrice">44€</p>
+              </div>
+              <div class="MenuCheck">
+                  <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
+              </div>
+              </div>
+      </div>
+      <div class="MenuDessert">
+              <div class="MenuTitle">
+                  <h2>DESSERTS</h2>
+                  <div class="MenuTitle-underline"></div>
+              </div>
+              <div class="MenuBox MenuChild1">
+              <div class="MenuContent">                            
+                  <h3 class="MenuContentTitle">Pétales de violettes glacés</h3>
+                  <p class="MenuContentDesc">Et purée de noisettes</p>
+                  <p class="MenuContentPrice">18€</p>
+              </div>
+              <div class="MenuCheck">
+                  <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
+              </div>
+              </div>
+              <div class="MenuBox MenuChild2">
+              <div class="MenuContent">                            
+                  <h3 class="MenuContentTitle">Fondant au chocolat</h3>
+                  <p class="MenuContentDesc">Revisité</p>
+                  <p class="MenuContentPrice">18€</p>
+              </div>
+              <div class="MenuCheck">
+                  <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
+              </div>
+              </div>
+              <div class="MenuBox MenuChild3">
+              <div class="MenuContent">                            
+                  <h3 class="MenuContentTitle">Millefeuille croustillant</h3>
+                  <p class="MenuContentDesc">Myrtilles et pâte d’amande</p>
+                  <p class="MenuContentPrice">23€</p>
+              </div>
+              <div class="MenuCheck">
+                  <i class="valide_icone fas fa-check-circle" aria-hidden="true"></i>
+                  </div>
+              </div>
+      </div>  
+     </div>       
+       <div class="btnMenu">
+         <button class="btn-explore">Commander</button>
+       </div>
+    </section> 
+  </main>
+  <footer> 
+    <div class="blockFooter">
+      <ul class="footer-link">
+        <li class="footer-link logoFont"> ohmyfood </li>
+        <li class="footer-link"> <a href="#"><i class="fas fa-utensils"></i>Proposez un restaurant</a> </li>
+        <li class="footer-link"> <a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a> </li>
+        <li class="footer-link"> <a href="#">Mentions légales</a> </li>
         <li class="footer-link"> <a href="mailto:p.ohmyfood@example.com"> Contact</a></li>
-    </ul>
-  </div>
- </footer>
-</main>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>

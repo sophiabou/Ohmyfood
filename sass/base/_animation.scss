@@ -1,13 +1,9 @@
-
-
-/**Bouton-validation**/
-
-button{
+btn-explore{
     transform: scale(1);
     transition: transform 1s;
 }
 
-button:hover{
+btn-explore:hover{
     transform: scale(1.2);
 }
 
@@ -58,7 +54,7 @@ button:hover{
     font-weight: 600;
 }
 
-/**Menu Animation**/
+/**Animation**/
 
 .MenuContent{
     z-index: 1;    
@@ -88,7 +84,7 @@ button:hover{
 }
 
 
-/**Menu apparition**/
+/**Apparition**/
 
 .MenuBox{
     animation: slide 2.5s linear 0.7s;

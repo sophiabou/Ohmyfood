@@ -6,21 +6,33 @@
     z-index: 0;
     img{
         width: 100%;
+        object-fit: cover;
     }   
 }
-.NavMenu{
-    // @include flex-center;
-    justify-content: space-around;
+
+.NavMenu-return {
+    width: 10%;
+}
+
+.NavMenu {
+    margin-top: 15px;
     height: 70px;
-    font-size: 30px;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     .fa-arrow-left{
-        text-align: left;
-        color: black;
-        
+        width: 10%;
+        color: black;  
     }
 }
 
-.Menu{
+.NavMenu-logo {
+    width: 90%;
+}
+
+.Menu {
     width: 100%;
     border-radius: 20px 20px 0 0;
     background-color: $grey-light;
@@ -29,46 +41,49 @@
     z-index: 1;
 }
 
-.RestaurantName{
+.RestaurantName {
     width: 100%;
     font-family: Shrikhand;
-    font-size: 18px;
     display: inline-flex;
-    justify-content: space-between; 
-    align-items: center;
+    align-items: baseline;
+    gap: 5px;
     h1{
-        padding-left: 1rem;
+        padding-left: 0.5rem;
+        font-size: 25px;
+        width: 80%;
     }     
-    .fa-heart{
+    .fa-heart {
         cursor: pointer;
-        font-size: 20px;
-        padding-right: 1rem;                       
+        font-size: 30px;
+        padding-right: 1rem; 
+        width: 20%;                      
     }
 }
 
 .MenuBlock{
     width: 100%;
-    #MenuStarter{
-        padding-left: 1rem;
-        padding-right: 1rem;
+    .MenuStarter {
+       padding-left: 0.5rem;
+       padding-right: 0.5rem;
     }
-    #MenuDish{
-        padding-left: 1rem;
-        padding-right: 1rem;
+    .MenuDish {
+       padding-left: 0.5rem;
+       padding-right: 0.5rem;
     }
-    #MenuDessert{
-        padding-left: 1rem;
-        padding-right: 1rem;
+    .MenuDessert {
+       padding-left: 0.5rem;
+       padding-right: 0.5rem;
     }
 }
 
-.MenuTitle{
+.MenuTitle {
     width: 40%;
-    h2{
+    h2 {
         padding-left: 0.5rem;
         margin-bottom: 0;
+        margin-top: 0;
      }
-    .MenuTitle-underline{
+    .MenuTitle-underline {
         width: 30%;
         border-top: 5px solid $green-light;
         margin-left: 0.5rem;
@@ -76,9 +91,195 @@
     }
 }
 
-.MenuOrder{
+.MenuOrder {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.MenuBox {
+    background-color: transparent;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.MenuContent {
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: $white;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 80% 20%;    
+}
+
+.MenuContentTitle {
+    width: 80%;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.MenuContentDesc {
+    width: 80%;
+    padding-left: 1rem;
+    margin-top: 0;    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.MenuContentPrice {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column : 2;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.MenuCheck {
+    background-color: $green-light;
+    border-radius: 20px;
+    width: 100%;
+    height: 85px;
+    text-align: right;
+    margin-right: 0;
+    z-index: -2;
+     .fa-check-circle{
+        font-size: 35px;
+        padding: 1.7rem;
+        color: rgb(255, 254, 254);
+    }
+ }
+ 
+.btnMenu {
+    text-align: center;
+    padding: 20%;
+    top: 8%;
+    bottom: 30%;
+   }
+  .btn-explore {
+      width: 70%;
+  }
+.footer-link {
+    margin-right: 10px;
+}
+
+@media screen and  (min-width : 767px) and (max-width: 1024px) {
+
+// version tablette //
+
+.NavMenu-return {
+    width: 0;
+}
+h1 {
+    font-size: 30px;
+    margin-left: 1rem;
+    padding: 0;
+}
+.btnMenu {
+    padding: 10%;
+}
+.MenuBlock{
+    width: 100%;
+    .MenuStarter {
+       padding-left: 5rem;
+       padding-right: 5rem;
+    }
+    .MenuDish {
+       padding-left: 5rem;
+       padding-right: 5rem;
+    }
+    .MenuDessert {
+       padding-left: 5rem;
+       padding-right: 5rem;
+    }
+}
+.HeadbandWrapper{    
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    position:relative;
+    z-index: 0;
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 330px;
+    }   
+}
+}
+
+@media screen and (min-width: 1200px) {
+
+// version dekstop //
+
+.NavMenu-return {
+    width: 0;
+}
+h1 {
+    font-size: 30px;
+    margin-left: 0;
+    padding: 0;
+}
+.HeadbandWrapper{    
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    position:relative;
+    z-index: 0;
+    img{
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: 300px;
+    }   
+} 
+.RestaurantName {
+    width: 100%;
+    h1{
+        padding-left: 3rem;
+        font-size: 25px;
+        width: 80%;
+    }     
+}
+.btnMenu {
+    padding: 8%;
+    text-align: center;
+}
+.MenuBlock{
+    width: 100%;
+    .MenuStarter {
+        padding-left: 2rem;
+       padding-right: 2rem;
+       width: 40%;
+    }
+    .MenuDish {
+       padding-left: 2rem;
+       padding-right: 2rem;
+       width: 40%;
+    }
+    .MenuDessert {
+       padding-left: 2rem;
+       padding-right: 2rem;
+       width: 40%;
+    }
+}
+.dekstop {
+    display: flex;
+    flex-direction: row;
+}
+.Menu {
+    width: 100%;
+}
 }

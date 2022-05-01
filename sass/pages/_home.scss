@@ -182,20 +182,19 @@ input {
     padding: 5%;
 }
 h1 {
-    font-size: 45px;
+    font-size: 35px;
 }
 .pHeader {
-    font-size: 20px;
+    font-size: 18px;
 }
 .btn-explore {
-    width: 70%;
+    width: 50%;
 }
 .backg {
     padding: 3px;
 }
-
 .restaurants {
-    padding: 80px;
+    padding: 60px;
 }
 .card {
     padding-bottom: 2rem;
@@ -203,7 +202,6 @@ h1 {
 .imgRestaurants {
    height: 250px;
 }
-
 h2 {
     font-size: 30px;
 }
@@ -216,7 +214,7 @@ h2 {
 }
 }
 
-@media screen and  (min-width : 1024px) and (max-width: 1326px) {
+@media screen and (min-width: 1200px) {
 
 // version dekstop //
 
@@ -224,12 +222,18 @@ h2 {
     padding: 30px;
     line-height: 60px;
 }
+h1 {
+    font-size: 30px;
+}
+.pHeader {
+    font-size:17px;
+}
 .btn-explore{
-    width: 40%;
+    width: 25%;
     font-size: 20px;
 }
 .backg {
-    width: 50rem;
+    width: 40rem;
     gap: 40px;
     font-size: 20px;
 }
@@ -241,13 +245,17 @@ h2 {
     height: 20px;
 }
 h2 {
-    font-size: 30px;
-}
-.restaurants{
-  padding: 30px;
+    font-size: 40px;
 }
 .card {
-   width: 55%;
+    width: 50%;
+    height: 330px;
+}
+.imgRestaurants {
+    height: 170px;
+}
+.restaurants {
+    display: block;
 }
 .espace{
     align-items: center;
