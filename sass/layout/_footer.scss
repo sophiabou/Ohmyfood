@@ -19,6 +19,13 @@ a {
     margin-right: 10px;
 }
 
+.fa-ustensils::before {
+    padding:16px;
+}
+.fa-hands-helpings::before {
+    padding:10px;
+}
+
 .logoFont{
     font-family : $shrikhand;
     font-size: 25px;
