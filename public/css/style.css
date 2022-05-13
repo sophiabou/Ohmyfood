@@ -332,11 +332,7 @@ a {
   margin-right: 10px;
 }
 
-.fa-ustensils::before {
-  padding: 16px;
-}
-
-.fa-hands-helpings::before {
+i.fas.fa-ustensils {
   padding: 10px;
 }
 
@@ -513,7 +509,7 @@ body > main > footer > div > ul > li > a > i {
   color: black;
   flex-direction: column;
   margin-left: 20px;
-  gap: -3%;
+  gap: -2.5rem;
 }
 
 @media screen and (min-width: 767px) and (max-width: 1024px) {
@@ -581,15 +577,15 @@ body > main > footer > div > ul > li > a > i {
   }
 
   h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .pHeader {
-    font-size: 17px;
+    font-size: 10px;
   }
 
   .btn-explore {
-    width: 25%;
+    width: 50%;
     font-size: 20px;
   }
 
@@ -927,7 +923,7 @@ body > main > footer > div > ul > li > a > i {
   border-radius: 30px;
   padding: 20px;
   background-image: linear-gradient(to bottom right, #9356DC, #FF79DA);
-  font-family: Roboto 400px;
+  font-family: Roboto;
   text-align: center;
   box-shadow: 5px 5px 5px #dbdbdb;
   cursor: pointer;
