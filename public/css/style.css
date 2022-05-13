@@ -538,11 +538,15 @@ body > main > footer > div > ul > li > a > i {
   }
 
   .btn-explore {
-    width: 50%;
+    width: 40%;
   }
 
   .backg {
     padding: 3px;
+  }
+
+  .globalFonction {
+    width: 60%;
   }
 
   .restaurants {
@@ -585,8 +589,12 @@ body > main > footer > div > ul > li > a > i {
   }
 
   .btn-explore {
-    width: 50%;
+    width: 40%;
     font-size: 20px;
+  }
+
+  .globalFonction {
+    width: 60%;
   }
 
   .backg {
@@ -799,7 +807,7 @@ body > main > footer > div > ul > li > a > i {
 }
 
 .btn-explore {
-  width: 70%;
+  width: 40%;
 }
 
 .footer-link {
