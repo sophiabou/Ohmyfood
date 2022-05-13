@@ -512,7 +512,7 @@ body > main > footer > div > ul > li > a > i {
   gap: -2.5rem;
 }
 
-@media screen and (min-width: 767px) and (max-width: 1024px) {
+@media screen and (min-width: 767px) and (max-width: 1999px) {
   .logo {
     width: 300px;
   }
@@ -585,7 +585,7 @@ body > main > footer > div > ul > li > a > i {
   }
 
   .pHeader {
-    font-size: 10px;
+    font-size: 18px;
   }
 
   .btn-explore {
