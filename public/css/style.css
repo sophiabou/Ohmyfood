@@ -332,8 +332,12 @@ a {
   margin-right: 10px;
 }
 
-i.fas.fa-ustensils {
-  padding: 10px;
+.fa-utensils {
+  padding-right: 15px;
+}
+
+.fa-hands-helping {
+  padding-right: 10px;
 }
 
 .logoFont {
@@ -814,7 +818,7 @@ body > main > footer > div > ul > li > a > i {
   margin-right: 10px;
 }
 
-@media screen and (min-width: 767px) and (max-width: 1024px) {
+@media screen and (min-width: 767px) and (max-width: 1200px) {
   .NavMenu-logo {
     width: 95%;
   }
