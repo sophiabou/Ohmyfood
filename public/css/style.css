@@ -390,8 +390,8 @@ h2 {
   color: #7e7e7e;
 }
 
-.fonction:hover {
-  color: #9356DC;
+.backg > .fonction:hover {
+  color: #f5edff;
 }
 
 .globalFonction {
@@ -425,7 +425,7 @@ body > main > footer > div > ul > li > a > i {
   border-radius: 28px 28px 28px 28px;
   position: relative;
   margin-bottom: 5rem;
-  height: 400px;
+  height: 380px;
   box-shadow: 5px 5px 5px #ebebeb;
 }
 
@@ -503,7 +503,7 @@ body > main > footer > div > ul > li > a > i {
 
 .imgRestaurants {
   width: 100%;
-  border-radius: 8% 8% 0 0;
+  border-radius: 20px 20px 0 0;
   object-fit: cover;
   height: 276px;
 }
@@ -513,7 +513,6 @@ body > main > footer > div > ul > li > a > i {
   color: black;
   flex-direction: column;
   margin-left: 20px;
-  gap: -2.5rem;
 }
 
 @media screen and (min-width: 767px) and (max-width: 1999px) {
@@ -555,10 +554,6 @@ body > main > footer > div > ul > li > a > i {
 
   .restaurants {
     padding: 60px;
-  }
-
-  .card {
-    padding-bottom: 2rem;
   }
 
   .imgRestaurants {
@@ -622,7 +617,7 @@ body > main > footer > div > ul > li > a > i {
 
   .card {
     width: 50%;
-    height: 330px;
+    height: 300px;
   }
 
   .imgRestaurants {
